@@ -8,7 +8,6 @@ header {
   align-items: center;
 }
 
-header img {
-  text-align: left;
-  margin-right: auto;
+header::before {
+  content: url("../images/logo.png");
 }
